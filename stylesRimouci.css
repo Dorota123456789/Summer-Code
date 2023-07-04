@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: visible;
+}
+#mainHeader {
+    background: rgb(240, 178, 221);
+    color: rgba(43, 211, 233, 0.986);
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+  
+}
+#mainNav {
+    background: rgb(228, 176, 184);
+    color: black;
+}
+#mainNav ul {
+    padding: 20px;
+    margin: 5px;
+    list-style: none;
+}
+#mainNav li {
+    display: inline;
+    padding: 10px;
+    list-style-position: inside;
+    
+}
+#mainNav a {
+    color: rgb(48, 4, 88);
+    text-decoration: underline ;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+   
+
+  
+}
+#mainNav li:hover {
+    background: #546256;
+}
+#jumbo {
+    background-image: url(../CSS/kolo-z-przyczepa-kempingowa-z-napisem-kamper_899894-39922.avif);
+    background-position: center center;
+    min-height: 400px;
+    text-align: center;
+    padding: 1px;
+    
+}
+#jumbo h2 {
+    font-size: 50px;
+    color: rgba(247, 248, 248, 0.925);
+    text-align: center;
+    padding: 40px;
+}
+#mainFooter {
+    background: pink;
+    color: rgb(7, 8, 8);
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+    font-size: 20px;
+  height: 1px;
+}
